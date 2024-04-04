@@ -1,16 +1,25 @@
 @import url(./styles/profile.css);
+@import url(./styles/card.css);
+@import url(./styles/javascript.css);
+@import url(./styles/footer.css);
 
 
 :root {
     --cor-de-fundo:  rgb(182, 125, 236);
     --cor-header:  rgb(56, 8, 102);
     --branco: #ffffff;
+    --font-principal: "Poppins", sans-serif;
+    --azul: rgb(20, 20, 65);
+    --roxo-fosco:  rgb(68, 50, 92);
+    --azul-brilhante: rgb(55, 20, 151);
+    --vermelho: red;
 }
 
 body {
     background: var(--cor-de-fundo);
     margin: 0 auto;
     font-size: 1.6rem;
+    font-family: var(--font-principal);
    
 }
 .cabecalho {
@@ -43,6 +52,7 @@ body {
 
     background-color: var(--cor-header);
     width: 60vw;
+    font-size: 1.4rem;
  
 }
 .container_botao:checked~.lista_menu{
