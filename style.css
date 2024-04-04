@@ -1,3 +1,6 @@
+@import url(./styles/profile.css);
+
+
 :root {
     --cor-de-fundo:  rgb(182, 125, 236);
     --cor-header:  rgb(56, 8, 102);
@@ -56,20 +59,4 @@ body {
     color: var(--branco);
     text-decoration: none;
     
-}
-
-.profile {
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 2.4rem;
-    
-}
-
-.profile_imagem {
-    width: 10.0rem;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-.profile_name {
-    font-size: 1.2rem;
 }

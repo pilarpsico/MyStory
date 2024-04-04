@@ -1,0 +1,16 @@
+
+.profile {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.4rem;
+    
+}
+
+.profile_imagem {
+    width: 10.0rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.profile_name {
+    font-size: 1.2rem;
+}
