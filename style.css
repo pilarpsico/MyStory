@@ -4,6 +4,7 @@
 @import url(./styles/footer.css);
 
 
+
 :root {
     --cor-de-fundo:  rgb(182, 125, 236);
     --cor-header:  rgb(56, 8, 102);
@@ -12,7 +13,9 @@
     --azul: rgb(20, 20, 65);
     --roxo-fosco:  rgb(68, 50, 92);
     --azul-brilhante: rgb(55, 20, 151);
-    --vermelho: red;
+    --vermelho: rgb(240, 80, 80);
+    --verde-agua: rgb(99, 177, 187);
+    
 }
 
 body {

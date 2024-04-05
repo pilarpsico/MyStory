@@ -17,7 +17,7 @@
 
 
 .link_javascript {
-   background-color: var(--vermelho);
+   background-color: rgb(38, 155, 201);
    color: var(--azul-brilhante);
    font-weight: 700;
    text-decoration: none;

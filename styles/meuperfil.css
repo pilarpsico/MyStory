@@ -1,0 +1,22 @@
+.cabecalho {
+    font-size: 1.0rem;
+    padding-left: 0.8rem;
+    border-radius: 0 0 0.8rem 0.8rem;
+    display: flex;
+    color: var(--branco);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+ion-icon {
+    font-size: 2.8rem;
+    color: var(--branco);
+    padding: 0.8rem;
+}
+
+main {
+    padding: 0.8rem;
+}
