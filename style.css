@@ -1,3 +1,4 @@
+@import url(./styles/header.css);
 @import url(./styles/profile.css);
 @import url(./styles/card.css);
 @import url(./styles/javascript.css);
@@ -6,7 +7,7 @@
 
 
 :root {
-    --cor-de-fundo:  rgb(182, 125, 236);
+    --cor-de-fundo:  #e2dcdc;
     --cor-header:  rgb(56, 8, 102);
     --branco: #ffffff;
     --font-principal: "Poppins", sans-serif;
@@ -24,52 +25,4 @@ body {
     font-size: 1.6rem;
     font-family: var(--font-principal);
    
-}
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    background-color: rgb(56, 8, 102);
-}
-.container_imagem {
-    color:black;
-    padding: 0.8rem;
-    
-}
-.container {
-    display: flex;
-}
-.menu_hamburguer {
-    background-image: url(img/reorder-three-outline.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 2.4rem;
-    height: 2.4rem;
-    display: inline-block;
-}
-.lista_menu{
-    display: none;
-    position: absolute;
-    top:100%;
-
-    background-color: var(--cor-header);
-    width: 60vw;
-    font-size: 1.4rem;
- 
-}
-.container_botao:checked~.lista_menu{
-    display:block;
-}
-.container_botao {
-    display: none;
-}
-.menu_itens{
-    padding:1.2rem;
-   
-}
-.header_menu-links{
-    color: var(--branco);
-    text-decoration: none;
-    
 }

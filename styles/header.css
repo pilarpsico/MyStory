@@ -1,0 +1,56 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgb(56, 8, 102);
+}
+.container_imagem {
+    color: var(--branco);
+    padding: 0.8rem;
+   
+    
+}
+.container {
+    display: flex;
+}
+.menu_hamburguer {
+    background-image: url(../img/menu_black_24dp\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    display: inline-block;
+}
+.lista_menu{
+    display: none;
+    position: absolute;
+    top:100%;
+
+    background-color: var(--cor-header);
+    width: 60vw;
+    font-size: 1.4rem;
+ 
+}
+.container_botao:checked~.lista_menu{
+    display:block;
+}
+.container_botao {
+    display: none;
+}
+.menu_itens{
+    padding:1.2rem;
+   
+}
+.header_menu-links{
+    color: var(--branco);
+    text-decoration: none;
+    
+}
+ion-icon {
+    color: var(--branco);
+}
+.container {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
