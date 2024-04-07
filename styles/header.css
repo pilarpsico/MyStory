@@ -33,6 +33,7 @@
     width: 60vw;
     font-size: 1.4rem;
  
+    margin-left: -0.8rem;
 }
 .container_botao:checked~.lista_menu{
     display:block;
