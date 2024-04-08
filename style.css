@@ -30,22 +30,3 @@ body {
     font-family: var(--font-principal);
    
 }
-
-.saibamais {
-    text-align: center;
-}
-.saibamais_titulo {
-    font-size: 1.6rem;
-    color: var(--azul);
-    font-weight: 700;
-}
-.saibamais_texto {
-    color: blueviolet;
-    border: 1px solid blue;
-    border-radius: 0.3rem;
-    width: 60%;
-    margin: 0.8rem auto;
-    padding: 0.8rem;
-    background-color: rgb(168, 168, 228);
-
-}

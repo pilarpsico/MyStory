@@ -1,5 +1,6 @@
 .javascript {
     background-color:var(--cor-header);
+    margin-top: 1.6rem;
 }
 
 .javascript_titulo {
@@ -12,6 +13,7 @@
     margin: 0.8rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -24,6 +26,6 @@
    padding:0.8rem;
    margin: 0.8rem 0.8rem;
    font-size: 1.4rem;
-   display: flex;
-   flex-wrap: nowrap;
+   
+  
   text-align: center;
