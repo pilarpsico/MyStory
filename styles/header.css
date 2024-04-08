@@ -7,12 +7,15 @@
 }
 
 .container_imagem1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-top: 0.8rem;
+    color: white;
 }
 .container_imagem {
     color: var(--branco);
-    padding: 0.8rem;
+    padding: 0 0.8rem;
+    
+  
    
     
 }
@@ -35,8 +38,8 @@
     background-color: var(--cor-header);
     width: 60vw;
     font-size: 1.4rem;
- 
-    margin-left: -0.8rem;
+    
+    margin-left: -1.6rem;
 }
 .container_botao:checked~.lista_menu{
     display:block;
@@ -47,16 +50,19 @@
 .menu_itens{
     padding:1.2rem;
    
+      
 }
 .header_menu-links{
     color: var(--branco);
     text-decoration: none;
     
 }
-ion-icon {
-    color: var(--branco);
-}
+
 .container {
-    margin-right: 0.8rem;
-    margin-left: 0.8rem;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+}
+
+.cabeçalho_icon {
+    color: white;
 }
