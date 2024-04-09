@@ -9,14 +9,14 @@
 }
 body {
     background-color:  rgb(168, 168, 228);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
     color: rgb(56, 10, 97);
-   
+    line-height: 3.0rem;
     border: 5px solid blueviolet;
     border-radius: 0.8rem;
     width: 60%;
-    margin: 7rem auto;
+    margin: 14.0rem auto;
     padding: 0.8rem;
 
     
