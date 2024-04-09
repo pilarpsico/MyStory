@@ -1,0 +1,130 @@
+
+body {
+    background:rgba(168, 156, 221, 0.705);
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+.profile {
+    width: 80%;
+    text-align: center;
+    margin: 3.6rem auto;
+    
+}
+.profile_imagem { 
+    width: 6.4rem;
+    border-radius: 50%;
+    
+}
+.profile_name {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    color: rgb(47, 3, 77);
+}
+.boasvindas_texto {
+    color: rgb(92, 53, 136);
+    text-align: center;
+    font-size: 1.8rem;
+
+    
+}
+
+.pages {
+    width: 75%;
+    margin: 0 auto 0.8rem auto;
+    text-align: center;
+    
+}
+.page_lista {
+   
+}
+.page_lista_item{
+   
+    background-color: rgb(124, 81, 177);
+    margin: 0.8rem;
+    border: 1px solid  rgb(47, 3, 77);
+    border-radius: 0.4rem;
+    padding: 1.4rem 0;
+}
+.page_lista_link {
+   font-size: 1.8rem;
+   color:  rgb(47, 3, 77);
+   text-decoration: none;
+   padding: 0.8rem;
+   
+}
+
+.page_lista_item:hover, .page_lista_link:hover{
+    background-color:  rgb(114, 55, 153);
+        color: white;
+        
+    }
+
+    #social-links {
+        display: flex;
+        justify-content: center;
+        margin: 3.2rem auto 1.6rem auto;
+        font-size: 2.4rem;
+        gap: 1.6rem;
+}
+#social-links a {
+    text-decoration: none;
+    color: rgb(44, 17, 70);
+}
+
+
+
+.rodapé {
+    margin-top: 6.0rem;
+    text-align: center;
+   
+}
+.rodapé_texto {
+    font-size: 1.4rem;
+    margin: .0rem 0;
+    text-align: center;
+    color:  rgb(63, 32, 83);
+}
+
+
+
+
+
+
+    .line {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        text-align: center;
+        font-size: 1.4rem;
+        width: 25.0rem;
+        margin: 0 auto;
+    
+        color: rgb(46, 24, 66);
+        border-right: 2px solid blueviolet;
+        overflow: hidden;
+    
+    }
+    /* animação do cursor*/
+    .type-animation {
+        animation: blinkCursor 500ms steps(40) infinite normal, pilar 3s steps(40) 1s normal;
+    }
+    @keyframes blinkCursor {
+        from {
+            border-right-color: blueviolet;
+        }
+        to {
+            border-right-color: transparent; 
+        }
+    
+    }
+    /*animação do nome*/
+    @keyframes pilar {
+        from {
+            width: 0;
+        }
+        to {
+            width: 20.0rem;
+        }
+    }
+    
