@@ -3,9 +3,10 @@
     text-align: center;
 }
 .saibamais_titulo {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: var(--azul);
     font-weight: 700;
+    margin-top: 1.6rem;
 }
 .saibamais_texto {
     color: blueviolet;
@@ -15,6 +16,10 @@
     margin: 0.8rem auto;
     padding: 0.8rem;
     background-color: rgb(168, 168, 228);
+}
+.saibamais_link {
+    text-decoration: none;
+    font-weight: 600;
 
 }
 

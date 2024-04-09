@@ -1,13 +1,16 @@
 .javascript {
     background-color:var(--cor-header);
     margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem;
 }
 
 .javascript_titulo {
     color: var(--branco);
     text-align: center;
     margin: 0.8rem 0;
-   padding-top: 0.8rem;
+   padding: 0.8rem 0;
+   font-size: 1.8rem;
 }
 .lista_javascript {
     margin: 0.8rem;
@@ -19,7 +22,8 @@
 
 
 .link_javascript {
-   background-color: rgb(38, 155, 201);
+   background-color: rgb(171, 214, 231);
+   border-radius: 0.3rem;
    color: var(--azul-brilhante);
    font-weight: 700;
    text-decoration: none;
