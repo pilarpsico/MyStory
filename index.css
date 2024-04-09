@@ -41,14 +41,14 @@ body {
 }
 .page_lista_item{
    
-    background-color: rgb(124, 81, 177);
+    background-color: rgb(110, 67, 161);
     margin: 0.8rem;
     border: 1px solid  rgb(47, 3, 77);
     border-radius: 0.4rem;
     padding: 1.4rem 0;
 }
 .page_lista_link {
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    color:  rgb(47, 3, 77);
    text-decoration: none;
    padding: 0.8rem;
