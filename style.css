@@ -22,9 +22,9 @@
     --verde-agua: rgb(99, 177, 187);
     
 }
-/*rgb(45, 157, 165);*/
+/*rgb(45, 157, 165); rgba(226, 196, 151, 0.993);*/
 body {
-    background: rgb(45, 157, 165);
+    background:rgba(138, 211, 233, 0.705);
     margin: 0 auto;
     font-size: 1.6rem;
     font-family: var(--font-principal);

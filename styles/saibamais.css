@@ -1,12 +1,14 @@
 
 .saibamais {
     text-align: center;
+    padding:1.6rem 0;
 }
 .saibamais_titulo {
     font-size: 1.8rem;
     color: var(--azul);
     font-weight: 700;
     margin-top: 1.6rem;
+    padding-bottom: 0.8rem;
 }
 .saibamais_texto {
     color: blueviolet;
