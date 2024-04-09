@@ -62,22 +62,43 @@
     color: white;
 }
 
+.texto_principal {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    line-height: 2.0rem;
+}
 
 p {
-    padding: 0.3rem 0;
+    padding: 0.3rem 0.8rem;
 }
 .italic {
     font-style: italic;
-    font-size: 1.8rem;
-}
-.family {
-    font-family: san-serif;
-    font-size: 1.8rem;
-    font-style: italic;
-}
-.weight {
-    font-weight: 700;
-}
-.fim {
     text-align: center;
+    background-color: rgb(167, 98, 231);
+   
+}
+.talvez {
+    padding: 0.8rem 1.6rem;
+    text-align: center;
+   
+}
+.quarto {
+    width: 80%;
+    margin: 0.8rem auto;
+    text-align: center;
+    border: 1px solid rgb(88, 32, 141);
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+    background-color: rgb(158, 204, 235);
+    color: rgb(57, 23, 90);
+}
+.font {
+    font-size: 1.8rem;
+}
+.letter {
+    letter-spacing: 0.2rem;
+}
+.p {
+    font-weight: 700;
+    font-style: italic;
 }
