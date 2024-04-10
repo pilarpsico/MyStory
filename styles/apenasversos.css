@@ -1,0 +1,22 @@
+@import url(../styles/header.css);
+@import url(../style.css);
+
+
+
+
+.cabeçalho {
+    background: rgb(56, 8, 102);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container_titulo {
+    
+}
+.icon {
+    color: white;
+}
