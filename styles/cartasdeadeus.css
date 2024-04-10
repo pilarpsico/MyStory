@@ -6,7 +6,7 @@
     color: rgb(47, 3, 77);
     text-align: center;
     padding: 0.8rem 0;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-family: var(--font-secundaria);
     font-weight: 500;
 
@@ -15,7 +15,7 @@ p {
     padding: 0.4rem 0.8rem;
 }
 .texto_carta1 {
-    
+    font-size: 1.6rem;
     line-height: 2.0rem;
 }
 .italic {
@@ -33,4 +33,25 @@ p {
 .weight {
     font-weight: 600;
     text-align: center;
+}
+
+.cartas_texto-p {
+    margin: 0.8rem 0;
+    color:  rgb(47, 3, 77);
+    font-size: 1.6rem;
+    background-color: blueviolet;
+    padding: 0.8rem 0;
+    margin-bottom: 1.6rem;
+    text-align: center;
+}
+
+.cartas_todas-item {
+    padding: .8rem;
+}
+.cartas_link {
+    
+   padding: 0.8rem 0;
+   color: blue;
+   text-decoration: none;
+
 }
