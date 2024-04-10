@@ -36,6 +36,7 @@
     padding: 0.8rem;
     line-height: 1.5;
     text-align: center;
+    font-style: italic;
 }
 .search_pesquisa {
     width: 60%;
@@ -71,22 +72,26 @@
     font-weight: 600;
 }
 .verso1 {
-   
+   background-color:var(--verde-agua);
 }
 .verso2 {
-    background-color: rgb(82, 50, 112);
-    color: rgba(255, 255, 255, 0.856);
+    background-color: var(--bg-fundo2);
+    color: var(--black);
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
 }
 .verso3 {
-    background-color: rgb(38, 100, 124);
+    background-color: var(--bg-card);
     border:1px solid blue;
     border-radius: 0.4rem;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 1.6rem;
    
-    color: rgba(255, 255, 255, 0.849);
+    color: black;
+}
+.verso4 {
+    margin-top: 1.6rem;
 }
 
 .verso_texto {
