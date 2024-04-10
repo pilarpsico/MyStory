@@ -4,6 +4,7 @@
     align-items: center;
     position: relative;
     background-color: rgb(56, 8, 102);
+    
   
 }
 .cabecalho_logo {
@@ -63,6 +64,7 @@
     color: var(--branco);
     text-decoration: none;
     padding-left: 0.8rem;
+    font-family: var(--font-principal);
 }
 
 
