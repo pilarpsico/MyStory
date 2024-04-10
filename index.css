@@ -1,6 +1,6 @@
 
 body {
-    background:rgb(210, 197, 221);
+    background:rgb(204, 163, 240);
     margin: 0 auto;
     font-size: 1.6rem;
     font-family:'Times New Roman', Times, serif;
@@ -41,9 +41,9 @@ body {
 }
 .page_lista_item{
    
-    background-color:rgb(144, 116, 180);
+    background-color:rgb(123, 85, 172);
     margin: 0.8rem;
-    border: 1px solid rgb(114, 55, 153);
+    border: 1px solid rgb(40, 19, 54);
     border-radius: 0.4rem;
     padding: 1.4rem 0;
 }
