@@ -41,9 +41,9 @@ body {
 }
 .page_lista_item{
    
-    background-color: rgb(110, 67, 161);
+    background-color:rgb(144, 116, 180);
     margin: 0.8rem;
-    border: 1px solid  rgb(47, 3, 77);
+    border: 1px solid rgb(114, 55, 153);
     border-radius: 0.4rem;
     padding: 1.4rem 0;
 }
