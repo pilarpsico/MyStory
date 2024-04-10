@@ -1,81 +1,15 @@
 @import url(./header.css);
-@import url(../styles/footer.css);
 @import url(./footer.css);
-@import url(../style.css);
 
-
-
-body {
-    background:rgba(168, 156, 221, 0.705);
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 1.6rem;
-  
-}
-
-.container {
-    padding: 0rem;
-}
-.menu_hamburguer {
-    background-image: url(../img/menu_black_24dp\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 2.4rem;
-    height: 2.4rem;
-    display: inline-block;
-}
-.menu_botão {
-    display: none;
-}
-.menu_lista-item {
-    display: inline-block;
-    top: 100%;
-}
-.menu_lista{
-    display: none;
-    position: absolute;
-    top:100%;
-
-    background-color: var(--cor-header);
-    width: 60vw;
-    font-size: 1.4rem;
-    margin-left: -1.6rem;
-    padding-left: 1.6rem;
-}
-.menu_botão:checked~.menu_lista {
-    display:block;
-}
-
-.menu_lista-link{
-    display: block;
-    padding:0.8rem;
-    font-size: 1.6rem;
-    text-decoration: none;
-   color: white;
-}
-.menu_botao {
-    display: none;
-}
 .container_titulo {
-    color: white;
-    font-size: 1.8rem;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0.8rem;
-}
-.icon_carta {
-    font-weight: 600;
+    font-family: var(--font-secundaria);
     font-size: 2.4rem;
+    font-weight: 300;
+}  
+.icon_carta {
     color: white;
-    margin-right: 0.8rem;
+    font-size: 2.4rem;
 }
-
-
-
-
 .texto_principal {
    
     font-size: 1.6rem;
@@ -83,14 +17,18 @@ body {
 }
 
 .texto_data {
+    margin-top: 1.6rem;
     font-size: 1.4rem;
     text-align: right;
     margin-right: 0.8rem;
+    
 }
 .texto_titulo {
+    margin-top: 0.8rem;
     font-size: 1.6rem;
     font-style: italic;
     padding-left: 0.8rem;
+    font-weight: 700;
 }
 p {
     padding:0.3rem 0;

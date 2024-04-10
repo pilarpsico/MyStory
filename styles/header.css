@@ -4,9 +4,15 @@
     align-items: center;
     position: relative;
     background-color: rgb(56, 8, 102);
-    
-  
 }
+.container_titulo {
+    font-family: var(--font-secundaria);
+    font-size: 2.4rem;
+    font-weight: 300;
+}  
+ 
+
+
 .cabecalho_logo {
     width: 2.4rem;
     height: 2.4rem;
@@ -22,10 +28,6 @@
     width: 2.4rem;
     color: var(--branco);
     padding: 0 0.6rem;
-    
-  
-   
-    
 }
 .container {
     display: flex;
@@ -57,18 +59,19 @@
 }
 .menu_itens{
     padding:1.2rem;
-   
+    font-family: var(--font-principal);
       
 }
 .header_menu-links{
     color: var(--branco);
     text-decoration: none;
     padding-left: 0.8rem;
-    font-family: var(--font-principal);
+   
 }
 
 
 
 .cabeçalho_icon {
     color: white;
+    font-size: 2.4rem;
 }

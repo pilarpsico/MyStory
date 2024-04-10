@@ -1,11 +1,11 @@
-@import url(./styles/header.css);
-@import url(./styles/profile.css);
-@import url(./styles/card.css);
-@import url(./styles/javascript.css);
-@import url(./styles/footer.css);
-@import url(./styles/saibamais.css);
+@import url(./header.css);
+@import url(./profile.css);
+@import url(./card.css);
+@import url(./saibamais.css);
+@import url(./javascript.css);
+@import url(./footer.css);
 @import url(./styles/contador.css);
-@import url(./styles/apenasversos.css);
+
 
 
 
