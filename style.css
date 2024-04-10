@@ -13,7 +13,7 @@
 
 
 :root {
-    --cor-de-fundo:  #e2dcdc;
+    --cor-de-fundo: :rgba(168, 156, 221, 0.705);
     --cor-header:  rgb(56, 8, 102);
     --branco: #ffffff;
     --font-principal: "Poppins", sans-serif;
