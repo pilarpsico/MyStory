@@ -20,3 +20,97 @@
 .icon {
     color: white;
 }
+
+.search {
+    text-align: center;
+}
+.search_titulo {
+    font-size: 1.8rem;
+    color: var(--azul);
+    font-weight: 700;
+    text-align: center;
+    padding: 0.8rem 0;
+}
+.search_texto {
+    margin-top: 0.8rem;
+    padding: 0.8rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.search_pesquisa {
+    width: 60%;
+    border: 2px solid  rgb(47, 3, 77);
+    border-radius: 0.4rem;
+    background: transparent;
+    padding: 0.8rem;
+    font-size: 1.4rem;
+    color: rgb(55, 55, 100);
+    margin-bottom: 1.6rem;
+
+}
+.search_pesquisa::placeholder {
+    font-size: 1.4rem;
+    color: rgb(55, 55, 100);
+    
+}
+.search_botão {
+    border: 1px solid  rgb(47, 3, 77);
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    font-size: 1.4rem;
+    background-color:  rgb(168, 168, 228);
+    color:  rgb(55, 55, 100);
+}
+.hrblack {
+    color: black;
+}
+.verso  {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1.6rem 0;
+    font-weight: 600;
+}
+.verso1 {
+   
+}
+.verso2 {
+    background-color: rgb(82, 50, 112);
+    color: rgba(255, 255, 255, 0.856);
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.verso3 {
+    background-color: rgb(38, 100, 124);
+    border:1px solid blue;
+    border-radius: 0.4rem;
+    width: 80%;
+    margin: 0 auto;
+   
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.verso_texto {
+    line-height: 1.5;
+    padding: 0.8rem;
+    
+    padding-bottom: 1.6rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.verso_texto_direita {
+    line-height: 1.5;
+    padding: 0.8rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 0.8rem;
+    text-align: right;
+
+}
+.verso_texto_centro {
+    line-height: 1.5;
+    padding: 0.8rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+
+}
