@@ -5,6 +5,10 @@
 p {
     padding: 0.3rem 0.8rem;
     line-height: 1.5;
+    font-size: 1.6rem;
+}
+.italicc {
+    font-style: italic;
 }
 .italic {
     font-style: italic;
@@ -36,4 +40,18 @@ p {
 .p {
     font-weight: 700;
     font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+.margintop {
+    margin-top: 1.6rem;
+}
+.marginbottom {
+    margin-bottom: 1.6rem;
+}
+.bgeitalic {
+    text-align: center;
+    background-color: rgb(167, 98, 231);
 }
